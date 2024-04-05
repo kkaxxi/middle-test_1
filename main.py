@@ -10,6 +10,12 @@ def find_common_and_different_lines(file1_lines, file2_lines):
     return common_lines, different_lines
 
 
+def write_lines_to_file(lines, file_name):
+    with open(file_name, 'w') as file:
+        for line in lines:
+            file.write(line)
+
+
 def main():
     ...
 
