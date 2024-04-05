@@ -17,13 +17,7 @@ def write_lines_to_file(lines, file_name):
 
 
 def main():
-    file1_lines = read_file('file1.txt')
-    file2_lines = read_file('file2.txt')
-
-    common_lines, different_lines = find_common_and_different_lines(file1_lines, file2_lines)
-
-    write_lines_to_file(common_lines, 'same.txt')
-    write_lines_to_file(different_lines, 'diff.txt')
+    ...
 
 
 if __name__ == "__main__":
